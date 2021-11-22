@@ -64,8 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
         itemCount: texts.length,
         itemBuilder: (BuildContext context, int index) {
           return InkWell(
-
-            onTap: (){
+            onTap: () {
               playSound(index);
             },
             child: Ink(
@@ -76,7 +75,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               decoration: BoxDecoration(
-
                 borderRadius: const BorderRadius.all(
                   Radius.circular(20),
                 ),
